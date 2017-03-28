@@ -3,13 +3,15 @@ import Map from './Map';
 
 class App extends Component {
   render() {
-    const center = {
+    const initialCenter = {
       lat: 37.3595704,
       lng: 127.105399
-    }
+    };
+
+    const zoom = 10;
 
     return (
-      <Map center={center} />
+      <Map initialCenter={initialCenter} zoom={zoom} />
     );
   }
 }

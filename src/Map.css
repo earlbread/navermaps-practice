@@ -1,0 +1,14 @@
+.Map {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.Map-canvas {
+  top: 20px;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.UpdatedText {
+  color: red;
+}
